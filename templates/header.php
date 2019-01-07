@@ -4,7 +4,7 @@
 <head>
   <meta charset="utf-8">
 
-  <title>The HTML5 Herald</title>
+  <title>Boilerplate</title>
   <meta name="description" content="Static base">
   <meta name="author" content="hodiern">
 

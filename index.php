@@ -1,5 +1,5 @@
 <?php include "templates/header.php"; ?>
 
-<h1>Hola Ricola</h1>
+<h1>Hello world</h1>
 
 <?php include "templates/footer.php"; ?>

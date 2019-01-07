@@ -4,7 +4,7 @@
 <head>
   <meta charset="utf-8">
 
-  <title>The HTML5 Herald</title>
+  <title>Boilerplate</title>
   <meta name="description" content="Static base">
   <meta name="author" content="hodiern">
 
@@ -13,7 +13,7 @@
   <!--[if lt IE 9]>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script>
   <![endif]-->
-<link href="/wp-content/themes/bend/dist/style.css?eb0d5914e6e0e25e08a9" rel="stylesheet"></head>
+<link href="/wp-content/themes/bend/dist/style.css?0c1671b22012f3d771ad" rel="stylesheet"></head>
 
 <body>
-<script type="text/javascript" src="/wp-content/themes/bend/dist/bundle.js?eb0d5914e6e0e25e08a9"></script>
+<script type="text/javascript" src="/wp-content/themes/bend/dist/bundle.js?0c1671b22012f3d771ad"></script>

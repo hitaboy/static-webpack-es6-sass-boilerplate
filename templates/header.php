@@ -8,6 +8,7 @@
   <meta name="description" content="Static base">
   <meta name="author" content="hodiern">
 
+  <meta name="viewport" content="width=device-width, user-scalable=no">
   <link rel="stylesheet" href="dist/style.css">
 
   <!--[if lt IE 9]>

@@ -1,1 +1,5 @@
-<H1>This is MK360 page</h1>
+<%= require("../partials/header.ejs")({title: htmlWebpackPlugin.options.data.title}) %>
+<div class="content">
+  <h1>This is page is <%= htmlWebpackPlugin.options.data.title %></h1>
+</div>
+<%= require("../partials/footer.ejs")() %>

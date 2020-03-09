@@ -1,14 +1,13 @@
 # Boilerplate for static web with webpack, es6 and sass
 
-static-webpack-es6-sass-boilerplate
+static-webpack-es6-sass-ejs-boilerplate
 
 ## Getting Started
 
-This is a bloierplate meant to be used for simple webs or fast prototypes
+This is a bloierplate meant to be used for simple webs or fast prototypes. It uses (ejs=[https://ejs.co/] (Embedded JavaScript templates) to be able to have partials and reuse templates. As a static boilerplate all ejs pages have to be declared in teh webpack.config.js. In the future I'm going to improve that to take al the ejs under app/views/pages/ folder.
 
 ### Prerequisites
 
-Be able to execute php from the terminal to be able to start a local server.
 Node.js and npm or yarn to be able to install the required node_modules
 
 ### Installing
@@ -17,20 +16,23 @@ Execute npm install or yarn to install required node_modules
 ```
 sudo npm install
 ```
-
+or
 ```
 yarn
 ```
 
-Start the local php server
+#### Start webpack for development
 ```
-php -S localhost:8000
+sudo npm run dev
 ```
+Visit http://0.0.0.0:8080/ with browser reloading
 
-Start webpack
+#### Build the project
 ```
-sudo npm run start
+sudo npm run build
 ```
+Upload all dist files to the production server
+
 
 ## Configuring
 
@@ -41,15 +43,15 @@ Now you can configure browsersync in webpack.config.js to use the prefered domai
 File/Folder | language | utility
 --- | --- | ---
 *index.php* | `php` | **main template**
-*templates/* | `folder` | **folder for template**
-*templates/header.php* | `php` | **header template**
-*templates/footer.php* | `php` | **footer template**
-*static/* | `folder` | **folder for static content**
-*static/fonts* | `folder` | **folder for fonts**
-*static/img* | `folder` | **folder for images**
-*src/* | `folder` | **folder for frontend sources**
-*src/scss/* | `folder` | **folder for sass sources**
-*src/js/* | `folder` | **folder for es6 javascript sources**
+*app/* | `folder` | **folder for frontend sources**
+*app/styles/* | `folder` | **folder for sass sources**
+*app/js/* | `folder` | **folder for es6 javascript sources**
+*app/views/* | `folder` | **folder for template**
+*app/views/partials/header.ejs* | `ejs` | **header template**
+*app/views/partials/footer.ejs* | `ejs` | **footer template**
+*assets/* | `folder` | **folder for static content**
+*assets/fonts* | `folder` | **folder for fonts**
+*assets/img* | `folder` | **folder for images**
 *dist/* | `folder` | **folder for css and js bundles**
 *node_modules/* | `folder` | **folder for the required node modules **
 

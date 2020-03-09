@@ -32,14 +32,23 @@ module.exports = {
         new webpack.DefinePlugin({
             IS_DEV: IS_DEV
         }),
-
         new HtmlWebpackPlugin({
-            template: path.join(__dirname, 'index.ejs'),
-            title: appHtmlTitle
+          title: 'Home',
+          template: path.join(__dirname, 'index.ejs'), // Load a custom template
+          inject: 'body', // Inject all scripts into the body
+          filename: 'index.html'
+        }),
+        new HtmlWebpackPlugin({
+          title: 'About',
+          template: path.join(__dirname, '/app/views/pages/about.ejs'), // Load a custom template
+          inject: 'body', // Inject all scripts into the body
+          filename: 'about.html'
         })
     ],
     module: {
         rules: [
+            // EJS
+            { test: /\.ejs$/, loader: 'ejs-loader' },
             // BABEL
             {
                 test: /\.js$/,

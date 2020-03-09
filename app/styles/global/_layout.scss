@@ -13,24 +13,9 @@ body {
   padding: 0px;
   background: map-get($palette, _black);
   color: map-get($palette, _white);
-  font-family: "Circular-Book";
-  background: #fc0;
+  background: #000;
+  color: #fff;
   &.noScroll {
     overflow: hidden;
   }
-}
-
-.wrapper--global {
-  position: relative;
-  width: 100%;
-}
-
-.wrapper--internal {
-  position: relative;
-  width: 100%;
-  max-width: 1000px;
-  margin: 0 auto;
-}
-.section {
-
 }

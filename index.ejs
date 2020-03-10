@@ -1,5 +1,12 @@
 <%= require("./app/views/partials/header.ejs")({title: htmlWebpackPlugin.options.data.title}) %>
 <div class="content">
   <h1>This is page is <%= htmlWebpackPlugin.options.data.title %></h1>
+  <h2 class="subtitle subtitle1">Subtitle</h2>
+  <hr>
+  <h2 class="subtitle subtitle2">Subtitle</h2>
+  <hr>
 </div>
+<script>
+  var modules = 'videotwin';
+</script>
 <%= require("./app/views/partials/footer.ejs")() %>

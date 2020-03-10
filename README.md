@@ -4,7 +4,7 @@ static-webpack-es6-sass-ejs-boilerplate
 
 ## Getting Started
 
-This is a bloierplate meant to be used for simple webs or fast prototypes. It uses (ejs=[https://ejs.co/] (Embedded JavaScript templates) to be able to have partials and reuse templates. As a static boilerplate all ejs pages have to be declared in teh webpack.config.js. In the future I'm going to improve that to take al the ejs under app/views/pages/ folder.
+This is a bloierplate meant to be used for simple webs or fast prototypes. It uses (ejs)[https://ejs.co/] (Embedded JavaScript templates) to be able to have partials and reuse templates. As a static boilerplate all ejs pages have to be declared in teh webpack.config.js. In the future I'm going to improve that to take al the ejs under app/views/pages/ folder.
 
 ### Prerequisites
 

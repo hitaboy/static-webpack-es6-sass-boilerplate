@@ -20,7 +20,7 @@
     "scrollmagic": "^2.0.7",
     "scrollmagic-with-ssr": "^1.0.2",
     "scrollscene": "^0.0.15",
-    "set-value": "2.0.1",
+    "set-value": "4.0.1",
     "yarn": "^1.22.4"
   },
   "devDependencies": {
